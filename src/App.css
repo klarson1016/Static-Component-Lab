@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.no-bullet-item {
+  list-style-type: none;
+}
+.whole {
+  margin: auto;
+  width: 900px;
+  height: 540px;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+}
+.left {
+  height: 505px;
+  width: 200px;
+  margin: 15px;
+  background-color: cornflowerblue;
+}
+.top-right {
+  display: flex;
+  flex-direction: row;
+}
+.top-right > div {
+  height: 150px;
+  width: 150px;
+  margin: 15px;
+  padding: 25px;
+  background-color: cornflowerblue;
+}
+.bottom-right {
+  height: 245px;
+  margin: 15px;
+  padding: 15px;
+  background-color: cornflowerblue;
+}
